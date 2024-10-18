@@ -1,9 +1,11 @@
 import React from 'react';
+import HeroSection from './components/HeroSection';
 
 const Page: React.FC = () => {
   return (
     <main className='min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]'>
-      <h1>hey partik</h1>
+     
+      <HeroSection />
     </main>
   );
 };
