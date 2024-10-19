@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
 import FeaturedCoureses from './components/FeaturedCoureses';
+import WhyChooseUs from './components/WhyChooseUs';
 
 const Page: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Page: React.FC = () => {
      
       <HeroSection />
       <FeaturedCoureses />
+      <WhyChooseUs />
     </main>
   );
 };
