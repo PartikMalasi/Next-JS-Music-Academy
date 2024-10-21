@@ -29,7 +29,7 @@ function MusicSchoolContactUs() {
           programs, or events. Reach out and let us know how we can assist you
           in your musical journey.
         </p>
-        <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+        <form onSubmit={handleSubmit} className="space-y-4 mt-4 text-center flex items-center justify-center flex-col">
           <input
             type="email"
             value={email}
