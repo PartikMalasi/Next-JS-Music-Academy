@@ -28,7 +28,7 @@ const FeaturedCoureses = () => {
         <div className="mt-10 mx-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                 {featuredCourses.map((course:Course) =>{
-                    return <div key={course.id} className="flex justify-center h-full items-center "><BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 h-full h-full">
+                    return <div key={course.id} className="flex justify-center h-full items-center "><BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900 h-full">
         <Image
           src={course.image}
           alt="jordans"
