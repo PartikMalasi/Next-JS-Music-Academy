@@ -4,6 +4,8 @@ import FeaturedCoureses from './components/FeaturedCoureses';
 import WhyChooseUs from './components/WhyChooseUs';
 import Testimonials from './components/Testimonials';
 import UpcomingSeminar from './components/UpcomingSeminar';
+import Instructor from './components/Instructor';
+import Footer from './components/Footer';
 
 const Page: React.FC = () => {
   return (
@@ -14,6 +16,8 @@ const Page: React.FC = () => {
       <WhyChooseUs />
       <Testimonials />
       <UpcomingSeminar />
+      <Instructor />
+      
     </main>
   );
 };
